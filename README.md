@@ -31,4 +31,10 @@ File name : file name start url Sub-directories then add _view.php (eg. insert_v
 ## Controller
 Accepts input and turns it to model or view instructions.
 ### Let’s try Controller
+Controller Files stored in Controller/ directory.
 
+I have two types of vew 
+#### Index page
+File name : index_controller.php
+#### Other pages
+File name : file name start url Sub-directories then add _controller.php (eg. insert_controller.php, about_controller.php, xyz_controller.php)
