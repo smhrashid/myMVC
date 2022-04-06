@@ -9,7 +9,7 @@ class InsertModel {
         $hash_key = '{"salt":"' . $salt . '", "hash":"' . $hash . '" }';
         $servername = 'localhost';
         $username = 'root';
-        $dpassword = 'jzKfaDQDME6VS2pU';
+        $dpassword = '****************';
         $dbname = 'buyer_info';
         $conn = new mysqli($servername, $username, $dpassword, $dbname);
         $sql = ("INSERT INTO buyer 
