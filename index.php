@@ -1,5 +1,4 @@
 <?php
-
 $url = !empty($_SERVER['QUERY_STRING']) ? explode('/', $_SERVER['QUERY_STRING']) : '/';
 if ($url == '/') {
     // This is the home page
