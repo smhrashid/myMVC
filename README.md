@@ -56,4 +56,15 @@ CREATE TABLE `buyer` (
   `entry_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `entry_by` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+## Database connection
+In insert_model.php please edit 
+
+        $servername = '******'; //Server name
+        
+        $username = '******'; // DB User Name 
+        
+        $dpassword = '*******'; //Db user Password
+        
+        $dbname = 'buyer_info'; // Database name
+
 
