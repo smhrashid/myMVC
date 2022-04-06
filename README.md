@@ -38,3 +38,22 @@ I have two types of vew
 File name : index_controller.php
 #### Other pages
 File name : file name start url Sub-directories then add _controller.php (eg. insert_controller.php, about_controller.php, xyz_controller.php)
+## Database (buyer_info)
+
+
+CREATE TABLE `buyer` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `amount` int(10) DEFAULT NULL,
+  `buyer` varchar(255) DEFAULT NULL,
+  `receipt_id` varchar(20) DEFAULT NULL,
+  `items` varchar(255) DEFAULT NULL,
+  `buyer_email` varchar(50) DEFAULT NULL,
+  `buyer_ip` varchar(20) DEFAULT NULL,
+  `note` text,
+  `city` varchar(20) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `hash_key` varchar(255) DEFAULT NULL,
+  `entry_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `entry_by` int(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
