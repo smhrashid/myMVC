@@ -24,11 +24,11 @@ Vew Files stored in Views/ directory.
 
 I have two types of vew 
 #### Index page
-
 File name : index_view.php
 #### Other pages
 File name : file name start url Sub-directories then add _view.php (eg. insert_view.php, about_view.php, xyz_view.php)
 
-
 ## Controller
 Accepts input and turns it to model or view instructions.
+### Let’s try Controller
+
